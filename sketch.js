@@ -13,10 +13,10 @@ let lastMoveTime = 0;
 const textDelay = 5000;
 
 function preload() {
-  imgcb = loadImage("asset/white.png");
-  imgb = loadImage("asset/black.png");
-  font1 = loadFont("asset/fastrespond.otf");
-  font2 = loadFont("asset/kabur.otf");
+  imgcb = loadImage("white.png");
+  imgb = loadImage("black.png");
+  font1 = loadFont("fastrespond.otf");
+  font2 = loadFont("kabur.otf");
 }
 
 function setup() {
