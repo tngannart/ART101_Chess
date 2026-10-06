@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Ngan Tran</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT ––––––––––––––––––––––––––––––––––––––––------–––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <script type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>  
+  <script type="text/javascript" src="css/overlaypopup.js"> </script>  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<!-- NAVIGATION AT the TOP is Here-->
+
+<nav class="navbar">
+      <div class="container nav_pad">  
+        <ul>
+         <li><a class="navbar-link" href="index.html">Main</a></li>
+         <li><a class="navbar-link" href="p1.html"> Project 1</a></li>
+         <li><a class="navbar-link" href="p2.html"> Project 2</a></li>
+         <li><a class="navbar-link" href="p3.html"> Project 3</a></li>
+         <li><a class="navbar-link" href="p4.html"> Project 4</a></li>
+         <li><a class="navbar-link" href="participation.html"> Participation</a></li>
+         <!-- <li><a class="navbar-link" href="q.artiststat.html"> Artist Statement</a></li> -->
+
+
+        </ul>
+      </div>     
+</nav>
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+   <div class="row section">
+  <header id="header" class="twelve columns">
+    <h3>Ngan Tran Project 2</h3>
+      
+<div class="statement_text"> 
+<em>
+  Enjoy your life with a delicious food!
+</em>
+<br>
+
+</div>
+    
+  </header>
+  </div>
+
+     
+<!-- NOTE!: For each row section make sure your column divs add up to 12. so 4+8, 6+6, 2+10, etc.-->
+
+      <!-- Start Row //// -->
+      <div class="row section">
+
+      
+       <!-- The column for showing the image and the link-->
+      
+      <div class="four columns" >
+      
+	    <a href="p5_code/ex3_wor/index.html" > <img src="images/ex_3 img.png" class="u-full-width "/>   </a>
+      </div> 
+        
+       <!-- The column for artist statement and the link-->
+     <div class="eight columns">    
+         <h5> Exercise 3: Lion Family and Friend </h5>
+		<!-- <p>
+		(IN CLASS placeholder) ... This is the first sketch I have done before in p5.js, I have never done anything like this.. 
+         In this sketch I attempted to use the for loop for the first... rectangle, ellipse, bla bla.... <br>
+       
+         <a href="p5_code/ex1_/index.html" >Combined code inclass version</a> --
+         <a href="p5_code/ex1_/sketch.js">See code for Combined code inclass version</a> <br>
+           </p> 
+         
+         <p> -->
+          <p>
+          In this exercise, I am working on a lion, a character that appears in my notebook, and I created a father lion and a baby lion. I want the lions' faces to be bouncing and wrapping around a canvas.
+<br>
+This is a p5.js creation that I learned and applied in class, such as vector behaviors including both wraparound and bounce mechanics, and child function. The big lion and baby lion exhibit bounce behavior by reversing their velocity when they reach the canvas edges, ensuring smooth and natural movement. They have different speeds of movement, creating a difference and showing the dynamism of the baby lion. The program makes effective use of transform functions such as `translate()`, `rotate()`, and `scale()` to position, rotate, and resize the lions dynamically. The big lion and baby lion act as parent functions, each composed of multiple child functions to define their distinct features. The project introduces two variations of the lion, with the baby lion using a different mane and eye style, amplifying customization. Nested transform tools (`push()` and `pop()`) isolate transformations and ensure clean organization.
+<br>
+
+I borrowed the Creature by Sean Yagi, Thomas, so I could add other characters to appear in my exercise. Thomas is a cute character. His detailed design features articulated limbs, facial expressions, and even a propeller hat, adding charm and personality to the character. I really like this character and thanks Sean for sharing Thomas with us!
+<div>
+         <a href="p5_code/ex3_wor/index.html" >Run Final Version Exercise 3</a> <br>
+         <a href="p5_code/ex3_wor/sketch.js">See code for Final Version Exercise 3</a> <br>
+          </p> 
+     </div>
+     
+     
+     <!--////  End of row section-->
+    </div>
+      
+       <!-- Start Row //// -->
+      <div class="row section">
+
+      
+       <!-- The column for showing the image and the link-->
+      
+      <div class="four columns" >
+      
+	    <a href="p5_code/ex4_work/index.html" > <img src="images/ex_4 img.png" class="u-full-width "/>   </a>
+      </div> 
+        
+       <!-- The column for artist statement and the link-->
+     <div class="eight columns">    
+         <h5>Excercise 4: Bear Planes</h5>
+		<p>
+      I made a few changes to my character from exercise 3 and transformed it from a lion to a brown bear with a brown tail. This was a difficult exercise for me because the Bear class in another file will affect the main sketch a lot, so when editing, both sides are related to each other.
+<br>
+The `ntBear` class includes a constructor for initializing attributes such as position, color, rotation, and size. The parent `displayBear()` function calls child functions like `tail()`, `ear()`, `head()`, `eye()`, `nose()`, `cutiecheek()`, and `leg()` to construct the bear’s full appearance. Transform tools such as `push()`, `pop()`, `translate()`, `rotate()`, and `scale()` is used to control the position, orientation, and size of each lion instance on the canvas. The `updateBear()` method handles vector-based movement and bounces behavior when the bears reach the canvas edges. The project demonstrates interactivity through the `keyPressed()` and `mousePressed()` functions, which alter movement speed, color patterns, and positioning in response to keyboard and mouse input in sketch.js. The results from the exercise were interesting to me, I also enjoyed and learned more knowledge.   
+     
+<p>
+        <a href="p5_code/ex4_work/index.html" >Run Exercise 4</a> <br>
+         <a href="p5_code/ex4_work/sketch.js">See code for Exercise 4</a> <br>
+         <a href="p5_code/ex4_work/ntBear.js">See the second code for Exercise 4</a> <br>
+
+          </p> </div>
+        </br>
+         
+     </div>
+     
+     
+     <!--////  End of row section-->
+    </div>
+      
+      
+
+      
+        <div class="row section">
+
+      
+       <!-- The column for showing the image and the link-->
+      
+        
+       <!-- The column for artist statement and the link-->
+     <div class="eight columns">    
+         <h5> Project 2 Video: Over the Sea</h5>
+         <p>
+          In Project 2, I took inspiration from the beach to create the waves and the steam rising from the sea surface. The algorithms that I used in the project were Parametric Equations and Forces to make the difference and the effect of the sea surface. The background I chose was white and will change in the third act when the effect of water evaporation appears. This is the first time I used existing codes and made my work unique. It was a bit difficult to start with, because their codes were completely finished and beautiful, and I did not want to change them. I used two codes that I thought I could tweak and change to my liking. I think I'm happy with my final video, the special effects when recording, and using the space key to make the video more unique.       
+          <br>
+In addition, I also added sound to create creativity and create the feeling like you are at the beach and hear the sound of waves lapping in your ears.         </p> 
+
+    <p>
+         <a href="p5_code/p2_vid test/index.html" >Run Project 2</a> <br>
+         <a href="p5_code/p2_vid test/sketch.js">Code for Video Project 2</a> <br>
+         <!-- <a href="p5_code/p2_vid test/class.js">See the second code for Project 2</a> <br> -->
+         <a href="https://docs.google.com/presentation/d/1olaZ298Y8ZCGGhfxpvsw4dInhj93UDBQGoiFpZoNTQ4/edit?slide=id.p#slide=id.p">See the Group Project 2 Slide</a> <br>
+
+      </br>
+         </div>
+     
+     
+     <!--////  End of row section-->
+    </div> 
+
+    <div class="row section">   
+        
+      <div class="six columns" >
+      
+   Algorithm 1: Parametric Equations  <a href="p5_code/al1/index.html" > <img src="images/p2_images/al1.png" class="u-full-width"/>  </a>
+
+      </div>
+      
+       <div class="six columns" >
+        Algorithm 2: Forces  <a href="p5_code/al2/index.html" > <img src="images/p2_images/al2.png" class="u-full-width"/>  </a>
+
+      
+      </div>
+    </div>
+
+
+
+    <h5>Project 2 Final Video</h5>
+     
+       
+    
+    
+       
+         
+      <div class="row section">   
+        
+          <div class="six columns" >
+          
+       Scene 1  <a href="images/p2_images/scene1.png" > <img src="images/p2_images/scene1.png" class="u-full-width"/>  </a>
+      Scene 3 <a href="images/p2_images/scene3.png" > <img src="images/p2_images/scene3.png" class="u-full-width"/>  </a> <br>
+
+          </div>
+          
+           <div class="six columns" >
+       Scene 2 <a href="images/p2_images/scene2.png" > <img src="images/p2_images/scene2.png" class="u-full-width"/>  </a> 
+       Scene 4 <a href="images/p2_images/scene4.png" > <img src="images/p2_images/scene4.png" class="u-full-width"/>  </a> <br>
+
+          
+          </div>
+</div>
+
+      
+<h6> Algorithm Sources</h6>
+  <a href="https://archive.p5js.org/examples/math-parametric-equations.html">Parametric Equations</a> <br> 
+  <a href="https://archive.p5js.org/examples/simulate-forces.html">Forces</a> <br>
+
+</br>
+
+      <h5>Project 2 Preview Video</h5>
+   
+     
+        <div class="row section">   
+        
+          <!-- <div class="twelve columns" >
+          
+        tiled panel <a href="images/p1_images/main12.jpg" > <img src="images/p1_images/main12.jpg" class="u-full-width"/>  </a> <br>
+      
+     
+        
+            </div> -->
+        
+         
+         </div>
+         </div>
+        </div>
+
+         
+         
+  
+
+      
+  
+
+   
+   
+   <!-- end of MAIN container /////////////////-->
+   
+  </div>
+
+    
+	
+
+    
+</body>
+</html>
